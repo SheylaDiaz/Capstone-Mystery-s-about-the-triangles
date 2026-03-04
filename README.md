@@ -1,2 +1,2 @@
-# Capstone-Mystery-s-about-the-triangles
+# Capstone-Mysterys-about-the-triangles
 Capstone project 
