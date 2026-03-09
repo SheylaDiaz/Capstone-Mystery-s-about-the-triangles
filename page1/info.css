@@ -1,0 +1,30 @@
+.infobox{
+background-color: aqua;
+border-radius: 5%;
+height: 65vh;
+width: 100vh;
+text-align: center;
+
+
+}
+h1, h3{
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(173, 59, 196);
+}
+a:hover {
+    color: aliceblue;
+}
+#next{
+    color: rgb(226, 77, 171);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 52px;
+    margin-top: 25vh;
+    font-size: 1.5rem;
+}
+#next:hover{
+    color: aliceblue;
+}
