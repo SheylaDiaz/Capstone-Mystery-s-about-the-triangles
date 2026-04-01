@@ -1,30 +1,92 @@
-.infobox{
-background-color: aqua;
-border-radius: 5%;
-height: 65vh;
-width: 100vh;
-text-align: center;
-
-
+body{
+    background-image: url(info.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-h1, h3{
+
+h1{
     text-decoration: underline;
+    text-align: center;
+    margin-top: 31vh;
 }
-
-a {
-    color: rgb(173, 59, 196);
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 3vh;
+}
+p{
+    color: greenyellow;
+    text-align: center;
+}
+h3{
+    color: rgb(216, 241, 166);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+a{
+    color: rgb(142, 53, 160);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+    font-size: 1.3rem;
 }
 a:hover {
     color: aliceblue;
 }
 #next{
-    color: rgb(226, 77, 171);
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 52px;
-    margin-top: 25vh;
+    color: rgb(5, 173, 55);
     font-size: 1.5rem;
+    
 }
 #next:hover{
     color: aliceblue;
+}
+@media screen and (max-width: 400px) {
+    body{
+    background-image: url(info.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 26vh;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 3vh;
+}
+p{
+    color: greenyellow;
+    text-align: center;
+}
+h3{
+    color: rgb(216, 241, 166);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8rem;
+}
+a{
+    color: rgb(142, 53, 160);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+    font-size: 1.3rem;
+}
+a:hover {
+    color: aliceblue;
+}
+#next{
+    color: rgb(5, 173, 55);
+    font-size: 1.5rem;
+    
+}
+#next:hover{
+    color: aliceblue;
+}
 }
