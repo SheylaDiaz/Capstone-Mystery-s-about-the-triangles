@@ -1,0 +1,118 @@
+#map { height: 250px;
+width: 580px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.head{
+    color: rgb(14, 17, 17);
+    text-decoration: underline;
+    text-align: center;
+}
+body {
+    background-image: url(4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    color: rgb(31, 69, 171);
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.home{
+    color: rgb(85, 80, 222);
+    font-size: 3rem;
+    margin-left: 110px;
+
+
+}
+.home:hover{
+    color: red;
+}
+
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.card{
+    border: 3px solid rgb(29, 224, 88);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+
+.page{
+    color: rgb(85, 80, 222);
+    font-size: 3rem;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.page:hover{
+    color: aqua;
+}
+@media screen and (max-width: 600px) {
+
+
+#map { height: 250px;
+width: 350px;
+margin-left: 5vh;}
+
+
+.head{
+    color: rgb(9, 15, 15);
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+h2{
+    color: rgb(17, 48, 134);
+    text-align: center;
+    text-decoration: underline;
+}
+.home{
+    margin-left: 20px;
+    color: rgb(85, 80, 222);
+}
+.home:hover{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.card{
+    border: 3px solid rgb(29, 224, 88);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+
+.page{
+    color: rgb(85, 80, 222);
+    font-size: 3rem;
+    display: flex;
+    justify-content: end;
+    margin-left: 505px;
+}
+}
