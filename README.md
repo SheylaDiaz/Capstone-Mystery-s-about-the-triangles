@@ -8,10 +8,21 @@ I use leaflet.js map to display where the triangle are located i had help from m
 I use chart.js with an external api to display missing person and missing planes in the areas.
 I implemented media querys to make my page be consistent with the stylying.
 
-I ask chatGPT to help me find the right coordenates for the triangles, and to help me find the right api to display the info im looking for. i ask for this to i want that when i click on the paragraph the triangle in the map zoom in.
+I ask chatGPT to help me find the right coordenates for the triangles, and to help me connect the server.js i had problems trying to run my website it gave me error because i didn't have it in the right folder.
 
 
-final idea and requaments 
+final idea.
+
+I have an info page with a quick  decrition about the project and a list of the suject, link to my github and linkend and to the next page.
+
+next page i have a map with the info in an array to display the coordanates, and a a quick info box about the triangle with link with more information.
+3th page i will do a missing person chart.js with the amount of missing plates too. and i want to add info box of what people think is happening in thoes triangles.
+
+to run that website you just need to run 
+
+Npm run dev 
+or 
+Go live 
 
 
 
