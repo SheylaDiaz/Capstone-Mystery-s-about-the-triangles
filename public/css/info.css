@@ -45,7 +45,7 @@ a:hover {
 }
 @media screen and (max-width: 400px) {
     body{
-    background-image: url(info.png.jpg);
+    background-image: url(/public/img/info.png.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
