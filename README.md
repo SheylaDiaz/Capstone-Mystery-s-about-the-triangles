@@ -21,8 +21,7 @@ next page i have a map with the info in an array to display the coordanates, and
 to run that website you just need to run 
 
 Npm run dev 
-or 
-Go live 
+
 
 
 
