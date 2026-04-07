@@ -4,3 +4,14 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+
+img {
+  width: 500px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+canvas {
+  max-width: 600px;
+  margin: auto;
+}
