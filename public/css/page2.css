@@ -9,28 +9,25 @@ body{
   height: 80vh;
   flex-direction: column;
 }
+.top{
+  display: flex;
+  gap: 10px;
+}
 
 img {
   width: 500px;
-  height: 300px;
+  height: 460px;
   border-radius: 10px;
 }
 
-canvas {
-  max-width: 600px;
-  margin: auto;
+#myChart {
+  width: 200px;
+  height: 300px;
 }
 
-h1{
+h1, h2{
   font-size: 3rem;
   text-align: center;
   text-decoration: underline;
 }
 
-#mychart{
-  background: rgb(202, 10, 10);
-  padding: 20px;
-  border-radius: 15px;
-  margin: 0 auto;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
