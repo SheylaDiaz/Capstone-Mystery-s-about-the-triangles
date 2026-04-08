@@ -1,7 +1,7 @@
 async function loadImage() {
   try {
     const res = await fetch(
-      "https://api.unsplash.com/photos/random?query=dark+ocean&client_id="
+      "https://api.unsplash.com/photos/random?query=dark+ocean&client_id=dvjGBGm_VnE5-3wzsT7n-iDB-w-xLhZOUkuInNCUvL4"
     );
 
     const data = await res.json();
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const chart = new Chart(ctx, {
-    type: 'line',
+    type: 'bar',
     data: {
       labels: years,
       datasets: [
@@ -42,7 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
           label: 'Missing People',
           data: missingPeopleData,
           borderWidth: 2,
-          tension: 0.3 
+          tension: 0.3 ,
+          backgroundColor: 'rgba(171, 146, 240, 0.5)',
+        borderColor: 'red'
         }
       ]
     },
