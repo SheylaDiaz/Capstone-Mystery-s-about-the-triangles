@@ -1,7 +1,7 @@
 async function loadImage() {
   try {
     const res = await fetch(
-      "https://api.unsplash.com/photos/random?query=dark+ocean&client_id=dvjGBGm_VnE5-3wzsT7n-iDB-w-xLhZOUkuInNCUvL4"
+      "https://api.unsplash.com/photos/random?query=dark+ocean&client_id="
     );
 
     const data = await res.json();
@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
           data: missingPeopleData,
           borderWidth: 2,
           tension: 0.3 ,
-          backgroundColor: 'rgba(171, 146, 240, 0.5)',
-        borderColor: 'red'
+          backgroundColor: 'rgba(120, 209, 236, 0.5)',
+        borderColor: 'black'
         }
       ]
     },
@@ -53,7 +53,8 @@ document.addEventListener('DOMContentLoaded', () => {
       plugins: {
         title: {
           display: true,
-          text: 'Missing People by Year (2010–2026)'
+          text: 'Missing People by Year (2010–2026)',
+          color:'white',
         },
         tooltip: {
           callbacks: {
@@ -64,16 +65,24 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       },
       scales: {
-        x: {
+        x:{
+    ticks: {
+      color: 'white' 
+    },
           title: {
             display: true,
-            text: 'Year'
+            text: 'Year',
+            color: 'white'
           }
         },
-        y: {
+        y:{
+    ticks: {
+      color: 'white'
+    },
           title: {
             display: true,
-            text: 'Number of Missing People'
+            text: 'Number of Missing People',
+            color: 'white'
           },
           beginAtZero: true
         }
