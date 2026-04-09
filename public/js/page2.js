@@ -6,9 +6,8 @@ async function loadImage() {
     if (!res.ok) {
       throw new Error("API request failed");
     }
-console.log(res)
     const data = await res.json();
-console.log(data)
+
     document.getElementById("oceanimg").src = data.urls.regular;
 
   } catch (err) {
