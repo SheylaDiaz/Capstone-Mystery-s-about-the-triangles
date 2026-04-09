@@ -12,10 +12,11 @@ margin-right: auto;
     text-align: center;
 }
 body {
-    background-image: url(/img/4.jpg);
+    background-image: url("../img/4.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 h2{
     color: rgb(31, 69, 171);

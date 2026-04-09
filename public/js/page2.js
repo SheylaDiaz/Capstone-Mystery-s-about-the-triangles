@@ -1,11 +1,14 @@
 async function loadImage() {
+  console.log("hello")
   try {
-    const res = await fetch(
-      "https://api.unsplash.com/photos/random?query=dark+ocean&client_id="
-    );
+    const res = await fetch(`http://localhost:8080/randomimg`);
 
+    if (!res.ok) {
+      throw new Error("API request failed");
+    }
+console.log(res)
     const data = await res.json();
-
+console.log(data)
     document.getElementById("oceanimg").src = data.urls.regular;
 
   } catch (err) {
@@ -13,11 +16,11 @@ async function loadImage() {
   }
 }
 
-loadImage();
+
 
 document.addEventListener('DOMContentLoaded', () => {
+  loadImage();
   const ctx = document.getElementById('myChart').getContext('2d');
-
   
   const years = [
     2010, 2011, 2012, 2013, 2014,
@@ -50,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     options: {
       responsive: true,
+      maintainAspectRatio: false,
       plugins: {
         title: {
           display: true,
