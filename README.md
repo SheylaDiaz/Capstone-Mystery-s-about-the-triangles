@@ -17,6 +17,10 @@ I have an info page with a quick  decrition about the project and a list of the 
 
 next page i have a map with the info in an array to display the coordanates, and a a quick info box about the triangle with link with more information.
 3th page i have a missing person chart.js.and i have a img display with an external api.
+i say can you find the right coordanates for the triangules and copy the answer,
+i ask for it to help me get a working chart.js with the missing person info and fill it in.
+
+I had problem hidding my .env and getting it to run properly but my mentor helpo me get it working.
 
 to run that website you just need to run 
 
