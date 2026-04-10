@@ -3,6 +3,11 @@ Mysteries about the triangles.
 My project is about the mystery's about the triangles around the world. I focus on facts and information in my first page and on a missing people chart with a img display in my second page.
 I wanted to shine light on all the triangles they are i was under the impression it was only the bermuda triangle but i found out i was really wrong and they are 12+ but i focus on that ones the had more info out there.
 
+I use leaflet.js map to display where the triangle are located i had help from my mentors to get the info to display correctly.
+I use chart.js with an external api to display missing person and missing planes in the areas.
+I implemented media queries to make my page be consistent with the styling.
+
+
 Code:YOU Feature Requirements:
 1-Analyze data that is stored in arrays, objects, sets or maps and display information about it in your app.
 
@@ -18,6 +23,11 @@ Tools:
 Node.js
 npm
 express.js
+
+AI use disclamer:
+
+I ask chatGPT to help me find the right coordinates for the triangles, and to help me connect the server.js i had problems trying to run my website it gave me error because i didn't have it in the right folder. And to help me build the chart.js with the info.
+
 
 Getting unsplash key:
 
