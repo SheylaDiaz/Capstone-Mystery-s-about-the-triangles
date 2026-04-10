@@ -1,6 +1,6 @@
 Mysteries about the triangles.
 
-My project is about the mystery's about the triangles02 around the world. I focus on facts and information in my first page and on a missing people chart with a img display in my second page.
+My project is about the mystery's about the triangles around the world. I focus on facts and information in my first page and on a missing people chart with a img display in my second page.
 I wanted to shine light on all the triangles they are i was under the impression it was only the bermuda triangle but i found out i was really wrong and they are 12+ but i focus on that ones the had more info out there.
 
 Code:YOU Feature Requirements:
