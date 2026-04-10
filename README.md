@@ -31,5 +31,5 @@ Run git clone https://github.com/SheylaDiaz/Capstone-Mystery-s-about-the-triangl
 create a .env file at the root.
 CD into the cloned directory.
 Run npm install to install required packages
-To start the development server, run npm run dev
+To start the development server, run-( npm run dev ) 
 In your browser, go to http://localhost:8080
